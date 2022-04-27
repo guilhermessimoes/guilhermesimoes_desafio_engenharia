@@ -3,10 +3,10 @@
 Neste repositório, conterá todo os softwares necessários para rodar o projeto "guilhermesimoes_desafio_engenharia".  
 
 # Sobre mim
-`Nome`: Guilherme Junio Silva Simões
-`Universidade`: Pitagoras
-`Curso`: Desenvolvimento Web
-`Semestre Atual`: Terceiro Período
+`Nome`: Guilherme Junio Silva Simões </br>
+`Universidade`: Pitagoras </br>
+`Curso`: Desenvolvimento Web </br>
+`Semestre Atual`: Terceiro Período </br>
   
 ## 1. Guia de pastas
   
@@ -31,20 +31,12 @@ A pasta routes fica minhas rotas: `routes/`
 5. Instalar o mysql em sua maquina e configurar o mesmo.
 6. Com as dependencia instaladas devemos rodar o comando do sequelize(ORM), `npx sequelize db:migrate`: Esse comando roda local dependendo de como voce instalou o CLI, se foi global ou local, geralmente instalo somente local. Para global usar o npm.
 7. Vamos utilizar o comando `npx sequelize db:seed:all`  
-
-
-## 3. Implementando Code Pattern com ESLint
-Para integrar o ESLint ao Visual Studio Code, você precisará instalar a extensão ESLint para o Visual Studio Code. Navegue de volta para o Visual Studio Code e pesquise ESLint na guia Extensões. Clique em Instalar depois de localizar a extensão:  
-![Instalando extensão no VSCode](https://assets.digitalocean.com/articles/linting-and-formatting-with-eslint-in-vs-code/2.png)
-  
-Verifique o funcionamento forçando um erro de código: exemplo, declarar uma variável em `./backend/src/server.js` como var e verifique se o vscode acusa erro.  
-Tente salvar, o comportamento esperado é que o VSCode corrija o erro para você.  
-  
-## 4. Tecnologias aplicadas
+ 
+## 3. Tecnologias aplicadas
 1. Express -> Para fazer o roteamento.
 2. Sequelize -> Para criar migrations e conexão com BD.
 3. Mysql -> Armazenamento de informações.
 
-## 5. Importando API para o Insomnia
+## 4. Importando API para o Insomnia
 1. Usar arquivo `./apiDoc/Insomnia_2022-04-27.json`
 2. Importar via Insomnia seguindo o processo normal de importação de collections
