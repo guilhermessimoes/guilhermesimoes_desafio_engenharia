@@ -1,0 +1,5 @@
+DB_USER= usuario
+DB_PASS= senha
+DB_DATABASE = dataBase
+DB_HOST = localhost
+DB_DIALECT= mysql
