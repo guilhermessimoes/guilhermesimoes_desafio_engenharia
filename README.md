@@ -30,7 +30,7 @@ A pasta routes fica minhas rotas: `routes/`
 4. Instalar o cli do sequelize `npm install --save-dev sequelize-cli`.
 5. Instalar o mysql em sua maquina e configurar o mesmo.
 6. Com as dependencia instaladas devemos rodar o comando do sequelize(ORM), `npx sequelize db:migrate`: Esse comando roda local dependendo de como voce instalou o CLI, se foi global ou local, geralmente instalo somente local. Para global usar o npm.
-7. Vamos utilizar o comando `npx sequelize db:seed:all`  
+7. Vamos utilizar o comando `npx sequelize db:seed:all` esse comando vai popular a tabela.
  
 ## 3. Tecnologias aplicadas
 1. Express -> Para fazer o roteamento.
